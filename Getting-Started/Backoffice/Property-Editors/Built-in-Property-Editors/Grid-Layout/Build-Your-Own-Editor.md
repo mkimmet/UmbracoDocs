@@ -101,4 +101,4 @@ When rendering the .cshtml file will receive a dynamic model with the raw data o
 
 So you can now use these value to build your razor output like so:
 
-    <div style="color: @Model.config.color">@Model.value</div>
+    <div style="color: @Model.editor.config.color">@Model.value</div>
